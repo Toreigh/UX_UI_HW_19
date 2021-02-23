@@ -111,7 +111,7 @@ button {
 }
 
 button:hover {
-    transform: scale(1.08);
+    transform: scale(1.06);
 }
 
 /* Button modifiers */
@@ -299,7 +299,11 @@ main {
 }
 
 
-
+.icon {
+    color: black;
+    font-size: 2rem;
+    
+}
 
 /* FOOTER */
 
@@ -320,7 +324,7 @@ main {
     grid-area: 2 / 1 / span 2 / span 3;
 }
 
-.icons {
+.footer-icons {
     color: white;
     font-size: 1.5rem;
     

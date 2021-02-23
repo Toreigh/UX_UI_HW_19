@@ -111,7 +111,7 @@ button {
 }
 
 button:hover {
-    transform: scale(1.08);
+    transform: scale(1.06);
 }
 
 /* Button modifiers */
@@ -226,7 +226,7 @@ main {
     display: grid;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: auto;
-    padding: 9rem 0;
+    padding: 5rem 0;
     
 }
 
@@ -286,6 +286,12 @@ main {
 
 .container-contact>* {
     margin-right: 1.2rem;
+}
+
+.icon {
+    color: black;
+    font-size: 2rem;
+    
 }
 
 /* CASE STUDIES */
@@ -445,7 +451,7 @@ main {
     grid-area: 2 / 1 / span 2 / span 3;
 }
 
-.icons {
+.footer-icons {
     color: white;
     font-size: 1.5rem;
     
@@ -481,7 +487,7 @@ main {
     color: var(--accent)
 }
 
-.footer .links{
+.footer-links{
     grid-area: 1 / 9 / span 4 / span 5;
     
 }
@@ -520,12 +526,15 @@ main {
         display: flex;
         align-items: center;
         justify-content: center;
+        
+        
     }
 
     #burger-menu {
         display: flex;
         align-items: center;
-        justify-content: center; 
+        justify-content: space-around; 
+       
     }
     
     .hero-grid {
